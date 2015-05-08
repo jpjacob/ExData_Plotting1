@@ -28,7 +28,7 @@ plot(dsq, g_a_pwr, type="l", xlab="", ylab="Global Active Power")
 
 plot(dsq, voltage, type="l", xlab="datetime", ylab="Voltage")
 
-plot(dsq, Sub_metering_1, type="l", ylab="Energy Submetering",xlab="")
+plot(dsq, Sub_metering_1, type="l", ylab="Energy Sub metering",xlab="")
 lines(dsq, Sub_metering_2, type="l", col="red")
 lines(dsq, Sub_metering_3, type="l", col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", 
