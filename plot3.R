@@ -18,7 +18,7 @@ Sub_metering_3 <- as.numeric(set2$Sub_metering_3)
 
 #generate plot and save
 
-plot(dsq, Sub_metering_1, type="l", ylab="Energy Submetering")
+plot(dsq, Sub_metering_1, type="l", ylab="Energy Sub metering")
 lines(dsq, Sub_metering_2, type="l", col="red")
 lines(dsq, Sub_metering_3, type="l", col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", 
